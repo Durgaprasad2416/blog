@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    {% extends 'homepage.html' %}
+    {% block content %}
+    <form method="POST">
+        <center>
+        <label for="">Username</label>
+        <input type="text" name="Username">
+        <label for="">Password</label>
+        <input name="Password" type="Password" placeholder="enter the Password">
+        <button>submit</button>
+        </center>
+    </form>
+    {% endblock %}
+</body>
+</html>
